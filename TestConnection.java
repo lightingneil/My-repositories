@@ -20,7 +20,7 @@ public class TestConnection {
 
 		try {
 			con = DriverManager.getConnection(URL, USER, PASSWORD);
-			System.out.println("Connecting to database successfully! (連線成功！)");
+			System.out.println("Connecting to database successfully! (連線成功喔！)");
 		} catch (SQLException se) {
 			System.out.println(se.getMessage());
 		} finally {
